@@ -277,3 +277,4 @@ Projenizi vercel.com veya render.com yayınlayın.
 - useState'ten Redux Store'a ne zaman geçmek gerekir?
 - useContext ile state/store farklı mıdır?
 - Açık Uçlu Sorular
+.

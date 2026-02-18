@@ -1,7 +1,11 @@
+import { useContext } from "react";
+import AppContext from "../context/AppContext";
 import Logo from "./Logo";
 import ModeSwitch from "./ModeSwitch";
 
 export default function Header() {
+  const { t } = useContext(AppContext);
+
   return (
     <header className="w-full px-10 pt-6">
       {/* ÜST SATIR */}
@@ -20,21 +24,21 @@ export default function Header() {
             href="#skills"
             className="text-[#6B7280] text-lg hover:text-[#4731D3]"
           >
-            Skills
+            {t.nav.skills}
           </a>
 
           <a
             href="#projects"
             className="text-[#6B7280] text-lg hover:text-[#4731D3]"
           >
-            Projects
+            {t.nav.projects}
           </a>
 
           <a
             href="#hire"
             className="w-[131px] h-[52px] flex items-center justify-center rounded-lg border border-[#3730A3] text-[#3730A3] text-lg font-medium whitespace-nowrap"
           >
-            Hire me
+            {t.nav.hire}
           </a>
         </div>
       </div>

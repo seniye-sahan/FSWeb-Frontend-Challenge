@@ -7,6 +7,9 @@
     font-family: theme("fontFamily.inter");
   }
 
+html, body, #root {
+  height: 100%;
+}
   body {
     margin: 0;
   }

@@ -16,7 +16,7 @@ const content = {
       subtitle: "Minimalism lover",
 
       intro:
-        "I’m Almila. I’m a full-stack developer. If you are looking for a developer who can craft solid and scalable frontend products with great user experiences, let’s shake hands.",
+        "Hi, I’m Almila. I’m a full-stack developer. If you are looking for a Developer who to craft solid and scalable frontend products with great user experiences. Let’s shake hands with me.",
 
       profileImage: "img1.png",
 
@@ -26,15 +26,15 @@ const content = {
 
       socials: [
         {
-          icon: "github.svg",
+          icon: "github.png",
           alt: "Github",
           text: "Github",
           link: "https://github.com",
         },
         {
-          icon: "linkedin.svg",
-          alt: "LinkedIn",
-          text: "LinkedIn",
+          icon: "linkedin.png",
+          alt: "Linkedin",
+          text: "Linkedin",
           link: "https://linkedin.com",
         },
       ],
@@ -64,13 +64,13 @@ const content = {
 
       socials: [
         {
-          icon: "github.svg",
+          icon: "github.png",
           alt: "Github",
           text: "Github",
           link: "https://github.com",
         },
         {
-          icon: "linkedin.svg",
+          icon: "linkedin.png",
           alt: "LinkedIn",
           text: "LinkedIn",
           link: "https://linkedin.com",

@@ -7,7 +7,8 @@ export default function Header() {
   const { t } = useContext(AppContext);
 
   return (
-    <header className="w-full px-10 pt-6">
+    <header className="w-full pt-6">
+          <div className="mx-auto max-w-[1100px] px-10">
       {/* ÜST SATIR */}
       <div className="flex justify-end">
         <ModeSwitch />
@@ -40,6 +41,7 @@ export default function Header() {
           >
             {t.nav.hire}
           </a>
+        </div>
         </div>
       </div>
     </header>

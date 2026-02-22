@@ -2,15 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  html {
-    font-family: theme("fontFamily.inter");
-  }
-
-html, body, #root {
+html, body {
   height: 100%;
 }
-  body {
-    margin: 0;
-  }
+
+body {
+  margin: 0;
+  font-family: Inter, system-ui, sans-serif;
 }

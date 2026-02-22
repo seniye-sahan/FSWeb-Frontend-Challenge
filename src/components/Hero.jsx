@@ -9,7 +9,7 @@ export default function Hero() {
     return (
         <section className="w-full pt-16">
             <div className="max-w-[1200px] mx-auto px-10">
-               <div className="grid grid-cols-1 lg:grid-cols-[596px_476px] gap-10 lg:gap-16 items-center">
+               <div className="grid grid-cols-1 lg:grid-cols-[596px_476px] gap-8 lg:gap-16 items-center">
                     {/* LEFT */}
                      <div className="w-[596px]">
                         {/* name line */}
@@ -25,7 +25,7 @@ export default function Hero() {
                             <span className="block whitespace-nowrap">{t.hero.subtitle}</span>
                         </h1>
 
-                        <p className="mt-6 max-w-[520px] text-[18px] font-normal leading-[28px] text-[#6B7280] dark:text-gray-200">
+                        <p className="mt-6 max-w-[558px] text-[18px] font-normal leading-7 text-[#6B7280] dark:text-gray-200">
                             {t.hero.intro}
                         </p>
 

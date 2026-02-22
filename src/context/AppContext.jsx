@@ -1,5 +1,5 @@
 import { createContext, useState, useEffect } from "react";
-import content from "../data/content"; // content.js dosyanın konumuna göre path'i düzelt
+import content from "../data/content"; 
 
 const AppContext = createContext();
 

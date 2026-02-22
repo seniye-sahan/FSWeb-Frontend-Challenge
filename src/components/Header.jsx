@@ -8,7 +8,7 @@ export default function Header() {
 
   return (
     <header className="w-full pt-6">
-          <div className="mx-auto max-w-[1100px] px-10">
+          <div className="mx-auto max-w-[1200px] px-10">
       {/* ÜST SATIR */}
       <div className="flex justify-end">
         <ModeSwitch />
@@ -29,6 +29,8 @@ export default function Header() {
           </a>
 
           <a
+
+          
             href="#projects"
             className="text-[#6B7280] text-lg hover:text-[#4731D3]"
           >

@@ -1,13 +1,13 @@
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import Skills from "./components/Skills";
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-white dark:bg-[#252128]">
-      <div className="mx-auto max-w-[1200px] px-10">
-        <Header />
-        <Hero />
-      </div>
+    <div className="min-h-screen w-full bg-white dark:bg-[#252128]">
+      <Header />
+      <Hero />
+      <Skills />
     </div>
   );
 }

@@ -39,6 +39,28 @@ const content = {
         },
       ],
     },
+
+    /* ---------- SKILLS ---------- */
+    skills: {
+      title: "Skills",
+      items: [
+        {
+          name: "Java Script",
+          description:
+            "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        },
+        {
+          name: "React.Js",
+          description:
+            "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        },
+        {
+          name: "Node.Js",
+          description:
+            "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        },
+      ],
+    },
   },
 
   tr: {
@@ -77,7 +99,29 @@ const content = {
         },
       ],
     },
+     /* ---------- SKILLS ---------- */
+    skills: {
+      title: "Yetenekler",
+      items: [
+        {
+          name: "Java Script",
+          description:
+            "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        },
+        {
+          name: "React.Js",
+          description:
+            "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        },
+        {
+          name: "Node.Js",
+          description:
+            "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        },
+      ],
+    },
   },
-};
+  }
+
 
 export default content;

@@ -7,7 +7,7 @@ export default function Skills() {
     const t = content[language];
 
     return (
-        <section id="skills" className="w-full py-24 font-inter">
+        <section id="skills" className="w-full py-8 font-inter">
             <div className="max-w-[1200px] mx-auto px-10">
                 <h2 className="text-5xl font-semibold text-[#1F2937] dark:text-white  mb-8">
                     {t.skills.title}
@@ -26,7 +26,7 @@ export default function Skills() {
                     ))}
                 </div>
 
-                <div className="mt-10 border-t border-[#BAB2E7] dark:border-[#3a3350]"></div>
+               
             </div>
         </section>
     );

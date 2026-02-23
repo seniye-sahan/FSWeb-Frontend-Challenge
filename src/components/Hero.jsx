@@ -7,7 +7,7 @@ export default function Hero() {
     const t = content[language];
 
     return (
-        <section className="w-full pt-16">
+        <section className="w-full pt-16 py-24">
             <div className="max-w-[1200px] mx-auto px-10">
                <div className="grid grid-cols-1 lg:grid-cols-[596px_476px] gap-8 lg:gap-16 items-center">
                     {/* LEFT */}

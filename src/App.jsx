@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Profile from "./components/Profile";
+import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 
 export default function App() {
@@ -10,6 +11,7 @@ export default function App() {
       <Hero />
       <Skills />
       <Profile/>
+      <Projects/>
     </div>
   );
 }

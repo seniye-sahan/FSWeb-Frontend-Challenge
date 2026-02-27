@@ -75,12 +75,12 @@ const content = {
                     value: "Ankara",
                 },
                 {
-                    label: "Education",
+                    label: "Bachelor",
                     value: "Hacettepe Unv. Biology Licence, 2016",
                 },
                 {
                     label: "Role",
-                    value: "Frontend,UI",
+                    value: "Frontend, UI",
                 },
             ],
 
@@ -127,6 +127,11 @@ const content = {
                     },
                 },
             ],
+        },
+        /* ---------- FOOTER ---------- */
+        footer: {
+            title: "Let’s work together on your next product.",
+            email: "almilasucode@gmail.com",
         },
     },
 
@@ -255,7 +260,11 @@ const content = {
             ],
         },
 
-
+        /* ---------- FOOTER ---------- */
+        footer: {
+            title: "Bir sonraki ürününüzde birlikte çalışalım.",
+            email: "almilasucode@gmail.com",
+        },
     },
 }
 

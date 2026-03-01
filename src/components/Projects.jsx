@@ -15,7 +15,7 @@ export default function Projects() {
         </h2>
 
         {/* Projects Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 md:gap-16 lg:gap-[120px]">
+        <div className="grid md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-12 md:gap-16 lg:gap-[120px]">
           {t.projects.items.map((project) => (
             <div key={project.name} className="flex flex-col w-[301px]">
               {/* Image */}

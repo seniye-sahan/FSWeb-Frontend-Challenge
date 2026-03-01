@@ -43,11 +43,11 @@ export default function Profile() {
                             {t.profile.aboutTitle}
                         </h3>
 
-                        <p className="text-[#6B7280] dark:text-gray-200 text-lg font-normal line-height:150%">
+                        <p className="text-[#6B7280] dark:text-gray-200 text-lg font-normal leading:150%">
                             {t.profile.aboutText}
                         </p>
                         <br />
-                        <p className="text-[#6B7280] dark:text-gray-200 font-normal text-lg line-height:150%">
+                        <p className="text-[#6B7280] dark:text-gray-200 font-normal text-lg leading:150%">
                             {t.profile.aboutText2}
                         </p>
                     </div>

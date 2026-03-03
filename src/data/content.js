@@ -1,4 +1,4 @@
-// src/data/content.js
+
 
 const content = {
     en: {

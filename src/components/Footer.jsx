@@ -22,9 +22,10 @@ export default function Footer() {
                 date: new Date().toISOString(),
             };
 
-            const res = await api.post("/users", 
-  { headers: { 'x-api-key': 'reqres_cb9bbd502adc449da0973298d6342c23' }},payload
-);
+            const res = await api.post("/users", payload);
+
+ 
+
 
             toast.update(toastId, {
                 render: `Sent ✅ id: ${res.data.id}`,
